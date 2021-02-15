@@ -29,6 +29,7 @@ export class ShowDepComponent implements OnInit {
      DepartmentID: 0,
      DepartmentName:""
         }
+       
        this.ModalTitle = "Add Department"
     }
 
@@ -49,9 +50,6 @@ export class ShowDepComponent implements OnInit {
       this.DepartmentList  = data;
       this.ActivateAddEditDepCom= true;
     });
-
-
-
   }
 
 }
