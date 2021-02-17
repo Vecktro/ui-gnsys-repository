@@ -2,8 +2,24 @@
     <h3 class="d-flex justify-content-center">GENESYS</h3>
     <h5 class="d-flex justify-content-center">System Administrator Portal</h5>
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="login" data-toggle="modal" data-target="#login-modal"
+              >Login</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="register" data-toggle="modal" data-target="#register-modal"
+              >Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="reset-password" data-toggle="modal" data-target="#reset-password-modal"
+              >Reset Password</a>
+        </li>
+      </ul>
+      
+    <nav class="navbar navbar-expand-sm">
         <ul class="navbar-nav">
+           
      <li class="nav-item">
          <button routerLink="department"
          class="n-1 btn btn-light btn-outline-primary" Button>Department</button>

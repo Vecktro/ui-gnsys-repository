@@ -14,6 +14,7 @@ import {HttpClientModule} from '@angular/common/http';
 
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AuthModule } from './auth/auth.module';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    NgbModule,
+    AuthModule
   ],
   providers: [GlobalserviceService],
   bootstrap: [AppComponent],
